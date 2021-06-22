@@ -1,0 +1,166 @@
+# Using Your CGM Data
+
+Websites and apps that help you track glucose numbers
+
+
+## Abbott Labs Official
+
+The most important software for Freestyle Libre downloading is the officially-supported one here:
+
+[https://provider.myfreestyle.com/freestyle-libre-resources.html](https://provider.myfreestyle.com/freestyle-libre-resources.html) 
+
+Create an account on Libreview and then you can download your data as a CSV file here: 
+
+[https://www.libreview.com/meter](https://www.libreview.com/meter)
+
+
+
+<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image1.jpg "image_tooltip")
+
+
+Then click here: [https://www.libreview.com/glucosereports](https://www.libreview.com/glucosereports) 
+
+
+
+<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image2.jpg "image_tooltip")
+
+
+If you have the Abbott custom reader device, you can also download a Mac or Windows version of Freestyle Libre personal CGM
+
+
+
+<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+![alt_text](images/image3.png "image_tooltip")
+
+
+
+## International versions
+
+[table by [Chuck Kub](https://www.facebook.com/photo.php?fbid=1835069433269419&set=gm.751003141928341&type=3&theater&ifg=1)]
+
+**China:** buy a reader plus 3 14-day sensor packs[ through Taobao](https://item.jd.com/32498232197.html) for about 1800 RMB (USD$270)
+
+
+## Third Party
+
+Many organizations now offer ways to upload and use your Freestyle (or other CGM) data.
+
+
+<table>
+  <tr>
+   <td><strong>Nightscout</strong>
+<p>
+“an open source, DIY project that allows real time access to a CGM data via personal website, smartwatch viewers, or apps and widgets available for smartphones”
+<p>
+See their app <a href="https://spike-app.com/">https://spike-app.com/</a>
+   </td>
+   <td>
+   </td>
+   <td> 
+
+<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/image4.png" width="" alt="alt_text" title="image_tooltip">
+<a href="http://www.nightscout.info/">http://www.nightscout.info/</a>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Diasend</strong>
+<p>
+ (formerly called<a href="https://www-int.glooko.com/"> Glooko</a>) tries to let you upload data from anywhere
+   </td>
+   <td>
+   </td>
+   <td>
+
+<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/image5.png" width="" alt="alt_text" title="image_tooltip">
+<a href="https://diasend.com/us">https://diasend.com/us</a>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Tidepool</strong> <a href="https://app.tidepool.org/patients">https://app.tidepool.org/patients</a>
+<p>
+Open-source non-profit place to upload glucose data 
+   </td>
+   <td>
+   </td>
+   <td>
+
+<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/image6.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+<a href="https://tidepool.org">https://tidepool.org</a>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Diabetes:M </strong>
+   </td>
+   <td>
+   </td>
+   <td>
+
+<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/image7.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+https://diabetes-m.com/
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Glimp</strong> : popular Android app
+   </td>
+   <td>
+   </td>
+   <td>
+
+<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
+
+
+<img src="images/image8.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+<a href="https://play.google.com/store/apps/details?id=it.ct.glicemia">https://play.google.com/store/apps/details?id=it.ct.glicemia</a>
+   </td>
+  </tr>
+</table>
+
+
+
+
+
+# Open Source Software
+
+
+
+*   **Nightscout xDrip+**: [https://github.com/JoernL/xDrip-plus](https://github.com/JoernL/xDrip-plus)
+    *   supports wireless connections to G4, G5, G6, Medtrum A6, Libre via NFC and Bluetooth, 630G, 640G, 670G pumps and Eversense CGM via companion apps. Bluetooth Glucose Meters such as the Contour Next One, AccuChek Guide, Verio Flex & Diamond Mini as well as devices like the Pendiq 2.0 Insulin Pen
+    *   44 contributors, very active since Nov 2014 (latest checkin Dec 2018)
+    *   
+*   **OpenLibreReader** iOS: [https://github.com/blueToolz/openLibreReader-iOS-](https://github.com/blueToolz/openLibreReader-iOS-)
+    *   a project to connect the various Libre Transmitters to the iPhone.
+    *   [Blog post](https://unendlichkeit.net/wordpress/openlibrereader-and-status/?lang=en) (Jan 2018) summarizing goals and status.
+    *   latest commit Apr 2018;   Started in Nov 2017 by 2 Germans 
+*   [https://github.com/UPetersen/LibreMonitor](https://github.com/UPetersen/LibreMonitor)  iOS NFC reader, includes hardware instructions
+    *    last active: Nov 2018.  Started in 2016 by 3 guys from Germany 
+*   **nahog / freestyle-libre-parser-viewer: **[https://github.com/nahog/freestyle-libre-parser-v tiewer](https://github.com/nahog/freestyle-libre-parser-viewer)
+    *   A parser library and viewer for CSV generated by the Abbott Freestyle Libre flash glucose meter.
+    *   From 2016, last commit June 2018; One guy from Ireland 
+*   [cgmnalysis](https://cran.r-project.org/web/packages/cgmanalysis/index.html): R Package on CRAN and [Github](https://github.com/childhealthbiostatscore/R-Packages) cleans up data from multiple CGM devices
+    *   Last update October 2019

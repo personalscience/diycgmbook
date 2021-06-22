@@ -1,0 +1,20 @@
+--- 
+title: "DIYCGM"
+author: "Richard Sprague"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "How to do your own personal science experiments with continuous glucose monitoring."
+---
+
+# Prerequisites
+
+Continuous glucose monitoring (CGM) is among the most exciting personal science experiments you can conduct on yourself. This book will explain how to get started.
+
+Before you buy one of those expensive kits from commercial companies that offer CGM products, learn how to do it yourself for about \$30 - \$50. All of the direct-to-consumer kits use the same FDA-regulated device that you stick on your arm. After you manually enter the food you eat, they'll give you dietary advice about the foods you eat. 
+
+The same FDA-approved device is available at most pharmacies for a fraction of the price. This site will show you step-by-step how to get the same results as the expensive products: an instant look at your glucose levels at any time day or night.  After that, you can decide for yourself it it's worth it for you to buy the other services.
+
