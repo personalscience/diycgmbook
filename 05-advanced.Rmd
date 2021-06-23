@@ -25,9 +25,6 @@ Sites that are useful for general background
 
 
 
-![alt_text](images/image13.png "image_tooltip")
-
-
 
 ### Freestyle Libre hardware information
 
@@ -46,7 +43,7 @@ Hardware devices that work with the Freestyle Libre. Using an NFC reader that ta
 
 *   **[MiaoMiao](https://miaomiao.cool/)** Shanghai company $200 
 *   **[Ambrosia Systems Nightrider](https://www.ambrosiasys.com/)**:  $110 NFC-to-bluetooth device
-*   **[Bubbl](https://www.bubblan.org/)<span style="text-decoration:underline;">an  Supports All Libre Sensors except US Libre2 version : 139.99€</span>**
+*   **[Bubblan](https://www.bubblan.org/)**: Supports All Libre Sensors except US Libre2 version : 139.99€
 
 
 ### Other hardware

@@ -1,6 +1,6 @@
 --- 
 title: "DIYCGM"
-author: "Richard Sprague"
+author: "https://personalscience.com"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book

@@ -14,31 +14,20 @@ Create an account on Libreview and then you can download your data as a CSV file
 [https://www.libreview.com/meter](https://www.libreview.com/meter)
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image1.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image1.jpg "image_tooltip")
+![Libreview main page](images/freestyle-download.jpg "image_tooltip")
 
 
 Then click here: [https://www.libreview.com/glucosereports](https://www.libreview.com/glucosereports) 
 
 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image2.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image2.jpg "image_tooltip")
+![Click to download](images/freestyle-download-click.jpg "image_tooltip")
 
 
 If you have the Abbott custom reader device, you can also download a Mac or Windows version of Freestyle Libre personal CGM
 
 
 
-<p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/image3.png "image_tooltip")
+![Freestyle Libre Software](images/freestyle-software.png "image_tooltip")
 
 
 
@@ -66,10 +55,9 @@ See their app <a href="https://spike-app.com/">https://spike-app.com/</a>
    </td>
    <td> 
 
-<p id="gdcalert4" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/image4.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/nightscout-logo.png" width="" alt="alt_text" title="image_tooltip">
 <a href="http://www.nightscout.info/">http://www.nightscout.info/</a>
    </td>
   </tr>
@@ -82,10 +70,10 @@ See their app <a href="https://spike-app.com/">https://spike-app.com/</a>
    </td>
    <td>
 
-<p id="gdcalert5" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/image5.png" width="" alt="alt_text" title="image_tooltip">
+
+<img src="images/diasend-logo.png" width="" alt="alt_text" title="image_tooltip">
 <a href="https://diasend.com/us">https://diasend.com/us</a>
    </td>
   </tr>
@@ -98,10 +86,9 @@ Open-source non-profit place to upload glucose data
    </td>
    <td>
 
-<p id="gdcalert6" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/image6.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/tidepool-logo.png" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 <a href="https://tidepool.org">https://tidepool.org</a>
@@ -114,10 +101,8 @@ Open-source non-profit place to upload glucose data
    </td>
    <td>
 
-<p id="gdcalert7" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
-
-<img src="images/image7.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/miaomiao-logo.png" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 https://diabetes-m.com/
@@ -130,10 +115,9 @@ https://diabetes-m.com/
    </td>
    <td>
 
-<p id="gdcalert8" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
-<img src="images/image8.png" width="" alt="alt_text" title="image_tooltip">
+<img src="images/glimp-logo.png" width="" alt="alt_text" title="image_tooltip">
 
 <p>
 <a href="https://play.google.com/store/apps/details?id=it.ct.glicemia">https://play.google.com/store/apps/details?id=it.ct.glicemia</a>
