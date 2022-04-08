@@ -18,3 +18,4 @@ freestyle-compatible
 other-hardware
 scientific-articles
 other-summary-resources
+use-the-personal-science-app

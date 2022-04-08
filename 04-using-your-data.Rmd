@@ -1,6 +1,13 @@
 # Using Your CGM Data
 
-Websites and apps that help you track glucose numbers
+Websites and apps that help you track glucose numbers.
+
+## Use the Personal Science App
+
+The best way to analyze your CGM data is with the CGM app from Personal Science (makers of this web site). You can upload your data and study it for free here:
+
+https://cgm.personalscience.com
+
 
 
 ## Abbott Labs Official
@@ -33,7 +40,9 @@ If you have the Abbott custom reader device, you can also download a Mac or Wind
 
 ## International versions
 
-[table by [Chuck Kub](https://www.facebook.com/photo.php?fbid=1835069433269419&set=gm.751003141928341&type=3&theater&ifg=1)]
+Freestyle Libre devices sold in other countries will generally work everywhere if you use the app downloaded specifically for that country.
+
+This [table by [Chuck Kub](https://www.facebook.com/photo.php?fbid=1835069433269419&set=gm.751003141928341&type=3&theater&ifg=1)] is a little old, but gives a sense of which models are available in which countries.
 
 **China:** buy a reader plus 3 14-day sensor packs [through Taobao](https://item.jd.com/32498232197.html) for about 1800 RMB (USD$270)
 
