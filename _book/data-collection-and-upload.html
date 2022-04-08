@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 4 Data Collection and Upload | DIYCGM</title>
+  <meta name="description" content="How to do your own personal science experiments with continuous glucose monitoring." />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 4 Data Collection and Upload | DIYCGM" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="How to do your own personal science experiments with continuous glucose monitoring." />
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 4 Data Collection and Upload | DIYCGM" />
+  
+  <meta name="twitter:description" content="How to do your own personal science experiments with continuous glucose monitoring." />
+  
+
+<meta name="author" content="Richard Sprague" />
+
+
+<meta name="date" content="2021-06-22" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="general-links.html"/>
+<link rel="next" href="open-source-software.html"/>
+<script src="libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">DIYCGM</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Prerequisites</a></li>
+<li class="chapter" data-level="2" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>2</b> Introduction</a></li>
+<li class="chapter" data-level="3" data-path="general-links.html"><a href="general-links.html"><i class="fa fa-check"></i><b>3</b> General Links</a></li>
+<li class="chapter" data-level="4" data-path="data-collection-and-upload.html"><a href="data-collection-and-upload.html"><i class="fa fa-check"></i><b>4</b> Data Collection and Upload</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="data-collection-and-upload.html"><a href="data-collection-and-upload.html#abbott-labs-official"><i class="fa fa-check"></i><b>4.1</b> Abbott Labs Official</a></li>
+<li class="chapter" data-level="4.2" data-path="data-collection-and-upload.html"><a href="data-collection-and-upload.html#international-versions"><i class="fa fa-check"></i><b>4.2</b> International versions</a></li>
+<li class="chapter" data-level="4.3" data-path="data-collection-and-upload.html"><a href="data-collection-and-upload.html#third-party"><i class="fa fa-check"></i><b>4.3</b> Third Party</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="open-source-software.html"><a href="open-source-software.html"><i class="fa fa-check"></i><b>5</b> Open Source Software</a></li>
+<li class="chapter" data-level="6" data-path="hardware.html"><a href="hardware.html"><i class="fa fa-check"></i><b>6</b> Hardware</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="hardware.html"><a href="hardware.html#freestyle-libre-hardware-information"><i class="fa fa-check"></i><b>6.1</b> Freestyle Libre hardware information</a></li>
+<li class="chapter" data-level="6.2" data-path="hardware.html"><a href="hardware.html#freestyle-compatible"><i class="fa fa-check"></i><b>6.2</b> Freestyle-compatible</a></li>
+<li class="chapter" data-level="6.3" data-path="hardware.html"><a href="hardware.html#other-hardware"><i class="fa fa-check"></i><b>6.3</b> Other hardware</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="scientific-articles.html"><a href="scientific-articles.html"><i class="fa fa-check"></i><b>7</b> Scientific articles</a></li>
+<li class="chapter" data-level="8" data-path="other-summary-resources.html"><a href="other-summary-resources.html"><i class="fa fa-check"></i><b>8</b> Other Summary Resources</a></li>
+<li class="chapter" data-level="9" data-path="news-and-user-experiences.html"><a href="news-and-user-experiences.html"><i class="fa fa-check"></i><b>9</b> News and User Experiences</a></li>
+<li class="chapter" data-level="10" data-path="companies-and-cgm-based-products.html"><a href="companies-and-cgm-based-products.html"><i class="fa fa-check"></i><b>10</b> Companies and CGM-Based Products</a></li>
+<li class="chapter" data-level="11" data-path="how-to-get-your-cgm.html"><a href="how-to-get-your-cgm.html"><i class="fa fa-check"></i><b>11</b> How to get your CGM</a></li>
+<li class="chapter" data-level="12" data-path="diet-and-food-tracking.html"><a href="diet-and-food-tracking.html"><i class="fa fa-check"></i><b>12</b> Diet and food-tracking</a></li>
+<li class="chapter" data-level="13" data-path="applications.html"><a href="applications.html"><i class="fa fa-check"></i><b>13</b> Applications</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="applications.html"><a href="applications.html#example-one"><i class="fa fa-check"></i><b>13.1</b> Example one</a></li>
+<li class="chapter" data-level="13.2" data-path="applications.html"><a href="applications.html#example-two"><i class="fa fa-check"></i><b>13.2</b> Example two</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="final-words.html"><a href="final-words.html"><i class="fa fa-check"></i><b>14</b> Final Words</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">DIYCGM</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-collection-and-upload" class="section level1" number="4">
+<h1><span class="header-section-number">Chapter 4</span> Data Collection and Upload</h1>
+<p>Websites and apps that help you track glucose numbers</p>
+<div id="abbott-labs-official" class="section level2" number="4.1">
+<h2><span class="header-section-number">4.1</span> Abbott Labs Official</h2>
+<p>The most important software for Freestyle Libre downloading is the officially-supported one here:</p>
+<p><a href="https://provider.myfreestyle.com/freestyle-libre-resources.html">https://provider.myfreestyle.com/freestyle-libre-resources.html</a></p>
+<p>Create an account on Libreview and then you can download your data as a CSV file here:</p>
+<p><a href="https://www.libreview.com/meter">https://www.libreview.com/meter</a></p>
+<p id="gdcalert1">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/image1.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="data-collection-and-upload.html#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<div class="figure">
+<img src="images/image1.jpg" title="image_tooltip" alt="" />
+<p class="caption">alt_text</p>
+</div>
+<p>Then click here: <a href="https://www.libreview.com/glucosereports">https://www.libreview.com/glucosereports</a></p>
+<p id="gdcalert2">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/image2.jpg). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="data-collection-and-upload.html#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<div class="figure">
+<img src="images/image2.jpg" title="image_tooltip" alt="" />
+<p class="caption">alt_text</p>
+</div>
+<p>If you have the Abbott custom reader device, you can also download a Mac or Windows version of Freestyle Libre personal CGM</p>
+<p id="gdcalert3">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/image3.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="data-collection-and-upload.html#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<div class="figure">
+<img src="images/image3.png" title="image_tooltip" alt="" />
+<p class="caption">alt_text</p>
+</div>
+</div>
+<div id="international-versions" class="section level2" number="4.2">
+<h2><span class="header-section-number">4.2</span> International versions</h2>
+<p>[table by <a href="https://www.facebook.com/photo.php?fbid=1835069433269419&amp;set=gm.751003141928341&amp;type=3&amp;theater&amp;ifg=1">Chuck Kub</a>]</p>
+<p><strong>China:</strong> buy a reader plus 3 14-day sensor packs<a href="https://item.jd.com/32498232197.html">through Taobao</a> for about 1800 RMB (USD$270)</p>
+</div>
+<div id="third-party" class="section level2" number="4.3">
+<h2><span class="header-section-number">4.3</span> Third Party</h2>
+<p>Many organizations now offer ways to upload and use your Freestyle (or other CGM) data.</p>
+<table>
+<tr>
+<td>
+<strong>Nightscout</strong>
+<p>
+“an open source, DIY project that allows real time access to a CGM data via personal website, smartwatch viewers, or apps and widgets available for smartphones”
+<p>
+See their app <a href="https://spike-app.com/">https://spike-app.com/</a>
+</td>
+<td>
+</td>
+<td>
+<p id="gdcalert4">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/image4.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="data-collection-and-upload.html#gdcalert5">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<img src="images/image4.png" width="" alt="alt_text" title="image_tooltip">
+<a href="http://www.nightscout.info/">http://www.nightscout.info/</a>
+</td>
+</tr>
+<tr>
+<td>
+<strong>Diasend</strong>
+<p>
+(formerly called<a href="https://www-int.glooko.com/"> Glooko</a>) tries to let you upload data from anywhere
+</td>
+<td>
+</td>
+<td>
+<p id="gdcalert5">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/image5.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="data-collection-and-upload.html#gdcalert6">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<img src="images/image5.png" width="" alt="alt_text" title="image_tooltip">
+<a href="https://diasend.com/us">https://diasend.com/us</a>
+</td>
+</tr>
+<tr>
+<td>
+<strong>Tidepool</strong> <a href="https://app.tidepool.org/patients">https://app.tidepool.org/patients</a>
+<p>
+Open-source non-profit place to upload glucose data
+</td>
+<td>
+</td>
+<td>
+<p id="gdcalert6">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/image6.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="data-collection-and-upload.html#gdcalert7">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<p><img src="images/image6.png" width="" alt="alt_text" title="image_tooltip"></p>
+<p>
+<a href="https://tidepool.org">https://tidepool.org</a>
+</td>
+</tr>
+<tr>
+<td>
+<strong>Diabetes:M </strong>
+</td>
+<td>
+</td>
+<td>
+<p id="gdcalert7">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/image7.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="data-collection-and-upload.html#gdcalert8">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<p><img src="images/image7.png" width="" alt="alt_text" title="image_tooltip"></p>
+<p>
+<a href="https://diabetes-m.com/" class="uri">https://diabetes-m.com/</a>
+</td>
+</tr>
+<tr>
+<td>
+<strong>Glimp</strong> : popular Android app
+</td>
+<td>
+</td>
+<td>
+<p id="gdcalert8">
+<span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; gd2md-html alert: inline image link here (to images/image8.png). Store image on your image server and adjust path/filename/extension if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="diet-and-food-tracking.html#gdcalert9">Next alert</a>)<br><span style="color: red; font-weight: bold">&gt;&gt;&gt;&gt;&gt; </span>
+</p>
+<p><img src="images/image8.png" width="" alt="alt_text" title="image_tooltip"></p>
+<p>
+<a href="https://play.google.com/store/apps/details?id=it.ct.glicemia">https://play.google.com/store/apps/details?id=it.ct.glicemia</a>
+</td>
+</tr>
+</table>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="general-links.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="open-source-software.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["diycgm.pdf", "diycgm.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
