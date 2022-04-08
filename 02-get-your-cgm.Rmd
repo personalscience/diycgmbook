@@ -1,49 +1,37 @@
 # How to get your CGM
 
-The FreeStyle Libre is available over-the-counter at most pharmacies throughout the world (including Canada), but requires a doctor’s prescription in the United States.
+The FreeStyle Libre is available over-the-counter at most pharmacies throughout the world (including Mexico and Canada), but requires a doctor's prescription in the United States.
 
-A month’s supply of sensors costs under US$100, so don’t bother trying to get your health insurance to reimburse you unless you have a specific medical reason, in which case consult your doctor.
+A month's supply of sensors costs under US\$100, so don't bother trying to get your health insurance to reimburse you unless you have a specific medical reason, in which case consult your doctor.
 
-If you need a prescription, the[ Freestyle Buying Guide ](https://www.freestylelibre.us/support/buying-guide.html)gives detailed information about how the product works, and what to tell your doctor. Most doctors will be happy to prescribe it if you explain that you’ll be paying out of pocket.
+There are three ways to get one in the US:
 
-You may also be able to order one from an online pharmacy:
+1.  Ask your doctor to prescribe one for you. The [Freestyle Buying Guide](https://www.freestylelibre.us/support/buying-guide.html) gives detailed information about how the product works, and what to tell your doctor. Most doctors will be happy to prescribe it if you explain that you'll be paying out of pocket.
 
+2.  [Tastermonial](https://tastermonial.com/products/cgm-freestyle-libre) will connect you with a doctor who can provide a prescription for \$29. This is the easiest solution for most people.
 
+3.  If you're traveling to Canada, Mexico, or other countries, you can pick them up locally, or you can order one to be shipped into the US. [Michael Cohn](https://octern.medium.com/how-to-get-a-continuous-glucose-monitor-d48cd229e9ac) describes how he got one from Canada for about \$100
 
-*   [Edwards Healthcare Services ](https://www.myehcs.com/diabetes/continuous-glucose-monitors/howcgmswork/)will send you two through the mail for $139
-*   [Michael Cohn](https://octern.medium.com/how-to-get-a-continuous-glucose-monitor-d48cd229e9ac) describes how to get one from Canada for about $100
+## What to buy
 
-Buy the 14-day sensor by itself. If you have an iPhone 7 +  or an Android, don’t bother buying the Reader (which is an additional US$200). 
-
-Numerous companies will give you a month’s worth of  CGM with an app and nutrition advice for under $500. See [link below](#bookmark=id.d7g3e8qlegnl).
-
+Buy the 14-day sensor by itself. If you have an iPhone 7 + or an Android, don't bother buying the Reader (which is an additional US\$200).
 
 ## Companies and CGM-Based Products
 
+Several companies will give you a month's worth of CGM with an app and nutrition advice for under \$500. See [link below](#bookmark=id.d7g3e8qlegnl).
 
+![january logo](images/january-logo.png "January.AI Logo")
 
-![alt_text](images/january-logo.png "January.AI Logo")
+<https://january.ai/> \$499 4-week program includes 2 Freestyle Libre devices and an app to guide your eating, fasting, and exercise choices.
 
+![nutrisense logo](images/nutrisense-logo.png "Nutrisense Logo")
 
-[https://january.ai/](https://january.ai/)  $499 4-week program includes 2 Freestyle Libre devices and an app to guide your eating, fasting, and exercise choices.
-
-
-![alt_text](images/nutrisense-logo.png "Nutrisense Logo")
-
-
-[https://www.nutrisense.io/](https://www.nutrisense.io/):  Join their “cohort” and receive  2 CGM devices/month and 24/7 nutritionist advice with an app that tracks your glucose, fasting, and more.
-
-
+<https://www.nutrisense.io/>: Join their "cohort" and receive 2 CGM devices/month and 24/7 nutritionist advice with an app that tracks your glucose, fasting, and more.
 
 ![alt_text](images/steadyhealth-logo.png "Steady Health")
 
-
-[https://steady.health/](https://steady.health/) a San Francisco-based clinic providing CGM-centric diabetes care. Their programs cost about \$60 / month and include AI-aided smartphone-based coaching and education around food and exercise, plus data interpretation with an endocrinologist. This is a good choice if your doctor has diagnosed you with diabetes.
-
+<https://steady.health/> a San Francisco-based clinic providing CGM-centric diabetes care. Their programs cost about \$60 / month and include AI-aided smartphone-based coaching and education around food and exercise, plus data interpretation with an endocrinologist. This is a good choice if your doctor has diagnosed you with diabetes.
 
 ![alt_text](images/levelshealth-logo.png "Levels Health")
 
-
-[https://www.levelshealth.com/](https://www.levelshealth.com/) offers “metabolic health” services, including a CGM and nutritionist consultation for about $400/month. You'll need to request access for a specific quote and availability.
-
-
+<https://www.levelshealth.com/> offers "metabolic health" services, including a CGM and nutritionist consultation for about \$400/month. You'll need to request access for a specific quote and availability.
