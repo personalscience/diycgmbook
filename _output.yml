@@ -5,7 +5,7 @@ bookdown::gitbook:
       before: |
         <li><a href="./">DIYCGM</a></li>
       after: |
-        <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+        <li><a href="https://personalscience.com" target="blank">Published by Personal Science</a></li>
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:

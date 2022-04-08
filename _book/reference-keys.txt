@@ -2,6 +2,7 @@ prerequisites
 intro
 news-and-user-experiences
 how-to-get-your-cgm
+what-to-buy
 companies-and-cgm-based-products
 diet-and-food-tracking
 using-your-cgm-data
@@ -17,4 +18,3 @@ freestyle-compatible
 other-hardware
 scientific-articles
 other-summary-resources
-what-to-buy
