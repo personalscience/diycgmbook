@@ -20,18 +20,18 @@ Buy the 14-day sensor by itself. If you have an iPhone 7 + or an Android, don't 
 
 Several companies will give you a month's worth of CGM with an app and nutrition advice for under \$500. See [link below](#bookmark=id.d7g3e8qlegnl).
 
-![january logo](images/january-logo.png "January.AI Logo")
+![January, Inc.](images/january-logo.png "January.AI Logo")
 
 <https://january.ai/> \$499 4-week program includes 2 Freestyle Libre devices and an app to guide your eating, fasting, and exercise choices.
 
-![nutrisense logo](images/nutrisense-logo.png "Nutrisense Logo")
+![Nutrisense](images/nutrisense-logo.png "Nutrisense Logo")
 
 <https://www.nutrisense.io/>: Join their "cohort" and receive 2 CGM devices/month and 24/7 nutritionist advice with an app that tracks your glucose, fasting, and more.
 
-![alt_text](images/steadyhealth-logo.png "Steady Health")
+![Steady Health](images/steadyhealth-logo.png "Steady Health")
 
 <https://steady.health/> a San Francisco-based clinic providing CGM-centric diabetes care. Their programs cost about \$60 / month and include AI-aided smartphone-based coaching and education around food and exercise, plus data interpretation with an endocrinologist. This is a good choice if your doctor has diagnosed you with diabetes.
 
-![alt_text](images/levelshealth-logo.png "Levels Health")
+![Levels Health](images/levelshealth-logo.png "Levels Health")
 
 <https://www.levelshealth.com/> offers "metabolic health" services, including a CGM and nutritionist consultation for about \$400/month. You'll need to request access for a specific quote and availability.

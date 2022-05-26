@@ -33,14 +33,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={DIYCGM},
-  pdfauthor={https://personalscience.com},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -74,10 +66,18 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={DIYCGM},
+  pdfauthor={https://personalscience.com},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
 \title{DIYCGM}
 \author{\url{https://personalscience.com}}
-\date{2021-06-22}
+\date{2022-05-25}
 
 \begin{document}
 \maketitle
@@ -91,17 +91,16 @@
 
 Continuous glucose monitoring (CGM) is among the most exciting personal science experiments you can conduct on yourself. This book will explain how to get started.
 
-Before you buy one of those expensive kits from commercial companies that offer CGM products, learn how to do it yourself for about \$30 - \$50. All of the direct-to-consumer kits use the same FDA-regulated device that you stick on your arm. After you manually enter the food you eat, they'll give you dietary advice about the foods you eat.
+Before you buy one of those expensive kits from one of the many commercial companies that offer the devices as part of their diet and nutrition programs, learn how to do it yourself for about \$30 - \$50. All of the direct-to-consumer kits use the same FDA-regulated device that is available at your local pharmacy for fraction of the price.
 
-The same FDA-approved device is available at most pharmacies for a fraction of the price. This site will show you step-by-step how to get the same results as the expensive products: an instant look at your glucose levels at any time day or night. After that, you can decide for yourself it it's worth it for you to buy the other services.
+This site will show you step-by-step how to get the same results as the expensive products: an instant look at your glucose levels at any time day or night. After that, you can decide for yourself it it's worth it for you to buy the other services.
 
 \hypertarget{intro}{%
 \chapter{Introduction}\label{intro}}
 
 This is a list of resources useful for building products that work with continuous glucose monitoring devices. Consider this document to be in the public domain, free to use however you like (but of course with absolutely no guarantees of accuracy).
 
-\includegraphics{images/sprague-neolife.png}
-Start with this article in NEO.LIFE: \href{https://neo.life/2019/01/personalized-health-advice-every-60-seconds/}{``Personalized Health Advice Every 60 Seconds''} and send feedback to Richard~Sprague: \href{https://twitter.com/sprague}{@sprague}
+\includegraphics{images/sprague-neolife.png} Start with this article by \href{https://twitter.com/sprague}{Richard Sprague} at NEO.LIFE: \href{https://neo.life/2019/01/personalized-health-advice-every-60-seconds/}{``Personalized Health Advice Every 60 Seconds''}.
 
 Also read this \href{https://medium.com/steady-health/the-ultimate-guide-to-continuous-glucose-monitors-cgm-611eecc70c9a}{good overview} by Henrik Berggren from Steady.Health.
 
@@ -109,13 +108,12 @@ Also read this \href{https://medium.com/steady-health/the-ultimate-guide-to-cont
 \chapter{News and User Experiences}\label{news-and-user-experiences}}
 
 \begin{itemize}
-\tightlist
 \item
   \textbf{New York Times Health Reporter Anahad O'Connor} wrote about Nutrisense, January.ai, and his personal experience using Levels Health. \url{https://www.nytimes.com/2021/02/08/well/diet-glucose-monitor.html}
 \item
   \textbf{Lydia Ramsey}, senior reporter at Business Insider wrote a detailed summary of using a Dexcom G6: \url{https://www.businessinsider.com/what-its-like-to-track-blood-sugar-with-a-continuous-glucose-monitor-2019-11}
 \item
-  \textbf{Eric Jain }wrote a short, highly-readable account of his month-long experience: \url{https://eric.jain.name/2018/11/25/tracking-blood-sugar/}
+  \textbf{Eric Jain} wrote a short, highly-readable account of his month-long experience: \url{https://eric.jain.name/2018/11/25/tracking-blood-sugar/}
 
   \begin{itemize}
   \tightlist
@@ -123,7 +121,7 @@ Also read this \href{https://medium.com/steady-health/the-ultimate-guide-to-cont
     And a \href{https://news.ycombinator.com/item?id=18891772}{Hacker News thread} about his post
   \end{itemize}
 \item
-  \textbf{Quantified Diabetes }does rigorous self-experimentation at \url{https://quantifieddiabetes.com/p/experiments.html}.\\
+  \textbf{Quantified Diabetes} does rigorous self-experimentation at \url{https://quantifieddiabetes.com/p/experiments.html}.\\
 \item
   \textbf{Lily Nichols} is a registered dietitian who wrote ``\href{https://lilynicholsrdn.com/cgm-experiment-non-diabetic-continuous-glucose-monitor/}{What I Learned as a Non-Diabetic}''
 \item
@@ -163,33 +161,36 @@ Also read this \href{https://medium.com/steady-health/the-ultimate-guide-to-cont
 \hypertarget{how-to-get-your-cgm}{%
 \chapter{How to get your CGM}\label{how-to-get-your-cgm}}
 
-The FreeStyle Libre is available over-the-counter at most pharmacies throughout the world (including Canada), but requires a doctor's prescription in the United States.
+The FreeStyle Libre is available over-the-counter at most pharmacies throughout the world (including Mexico and Canada), but requires a doctor's prescription in the United States.
 
 A month's supply of sensors costs under US\$100, so don't bother trying to get your health insurance to reimburse you unless you have a specific medical reason, in which case consult your doctor.
 
-If you need a prescription, the\href{https://www.freestylelibre.us/support/buying-guide.html}{Freestyle Buying Guide}gives detailed information about how the product works, and what to tell your doctor. Most doctors will be happy to prescribe it if you explain that you'll be paying out of pocket.
+There are three ways to get one in the US:
 
-You may also be able to order one from an online pharmacy:
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Ask your doctor to prescribe one for you. The \href{https://www.freestylelibre.us/support/buying-guide.html}{Freestyle Buying Guide} gives detailed information about how the product works, and what to tell your doctor. Most doctors will be happy to prescribe it if you explain that you'll be paying out of pocket.
+\item
+  \href{https://tastermonial.com/products/cgm-freestyle-libre}{Tastermonial} will connect you with a doctor who can provide a prescription for \$29. This is the easiest solution for most people.
+\item
+  If you're traveling to Canada, Mexico, or other countries, you can pick them up locally, or you can order one to be shipped into the US. \href{https://octern.medium.com/how-to-get-a-continuous-glucose-monitor-d48cd229e9ac}{Michael Cohn} describes how he got one from Canada for about \$100
+\end{enumerate}
 
-\begin{itemize}
-\tightlist
-\item
-  \href{https://www.myehcs.com/diabetes/continuous-glucose-monitors/howcgmswork/}{Edwards Healthcare Services}will send you two through the mail for \$139
-\item
-  \href{https://octern.medium.com/how-to-get-a-continuous-glucose-monitor-d48cd229e9ac}{Michael Cohn} describes how to get one from Canada for about \$100
-\end{itemize}
+\hypertarget{what-to-buy}{%
+\section{What to buy}\label{what-to-buy}}
 
 Buy the 14-day sensor by itself. If you have an iPhone 7 + or an Android, don't bother buying the Reader (which is an additional US\$200).
-
-Numerous companies will give you a month's worth of CGM with an app and nutrition advice for under \$500. See \protect\hyperlink{bookmark=id.d7g3e8qlegnl}{link below}.
 
 \hypertarget{companies-and-cgm-based-products}{%
 \section{Companies and CGM-Based Products}\label{companies-and-cgm-based-products}}
 
+Several companies will give you a month's worth of CGM with an app and nutrition advice for under \$500. See \protect\hyperlink{bookmark=id.d7g3e8qlegnl}{link below}.
+
 \begin{figure}
 \centering
 \includegraphics{images/january-logo.png}
-\caption{alt\_text}
+\caption{January, Inc.}
 \end{figure}
 
 \url{https://january.ai/} \$499 4-week program includes 2 Freestyle Libre devices and an app to guide your eating, fasting, and exercise choices.
@@ -197,7 +198,7 @@ Numerous companies will give you a month's worth of CGM with an app and nutritio
 \begin{figure}
 \centering
 \includegraphics{images/nutrisense-logo.png}
-\caption{alt\_text}
+\caption{Nutrisense}
 \end{figure}
 
 \url{https://www.nutrisense.io/}: Join their ``cohort'' and receive 2 CGM devices/month and 24/7 nutritionist advice with an app that tracks your glucose, fasting, and more.
@@ -205,18 +206,18 @@ Numerous companies will give you a month's worth of CGM with an app and nutritio
 \begin{figure}
 \centering
 \includegraphics{images/steadyhealth-logo.png}
-\caption{alt\_text}
+\caption{Steady Health}
 \end{figure}
 
-\url{https://steady.health/} a San Francisco-based clinic providing CGM-centric diabetes care. On Aug.~25, 2020, they're launching a 5-week Starter program that costs \$50 and will include a prescription for two CGMs, AI-aided smartphone-based coaching and education around food and exercise, and data interpretation with an endocrinologist.
+\url{https://steady.health/} a San Francisco-based clinic providing CGM-centric diabetes care. Their programs cost about \$60 / month and include AI-aided smartphone-based coaching and education around food and exercise, plus data interpretation with an endocrinologist. This is a good choice if your doctor has diagnosed you with diabetes.
 
 \begin{figure}
 \centering
 \includegraphics{images/levelshealth-logo.png}
-\caption{alt\_text}
+\caption{Levels Health}
 \end{figure}
 
-\url{https://www.levelshealth.com/} offers ``metabolic health'' services, including a CGM and nutritionist consultation for about \$400/month.
+\url{https://www.levelshealth.com/} offers ``metabolic health'' services, including a CGM and nutritionist consultation for about \$400/month. You'll need to request access for a specific quote and availability.
 
 \hypertarget{diet-and-food-tracking}{%
 \chapter{Diet and food-tracking}\label{diet-and-food-tracking}}
@@ -244,7 +245,14 @@ Large, curated food database. Widely used among professionals due to its in-dept
 \hypertarget{using-your-cgm-data}{%
 \chapter{Using Your CGM Data}\label{using-your-cgm-data}}
 
-Websites and apps that help you track glucose numbers
+Websites and apps that help you track glucose numbers.
+
+\hypertarget{use-the-personal-science-app}{%
+\section{Use the Personal Science App}\label{use-the-personal-science-app}}
+
+The best way to analyze your CGM data is with the CGM app from Personal Science (makers of this web site). You can upload your data and study it for free here:
+
+\url{https://cgm.personalscience.com}
 
 \hypertarget{abbott-labs-official}{%
 \section{Abbott Labs Official}\label{abbott-labs-official}}
@@ -282,9 +290,11 @@ If you have the Abbott custom reader device, you can also download a Mac or Wind
 \hypertarget{international-versions}{%
 \section{International versions}\label{international-versions}}
 
-{[}table by \href{https://www.facebook.com/photo.php?fbid=1835069433269419\&set=gm.751003141928341\&type=3\&theater\&ifg=1}{Chuck Kub}{]}
+Freestyle Libre devices sold in other countries will generally work everywhere if you use the app downloaded specifically for that country.
 
-\textbf{China:} buy a reader plus 3 14-day sensor packs\href{https://item.jd.com/32498232197.html}{through Taobao} for about 1800 RMB (USD\$270)
+This {[}table by \href{https://www.facebook.com/photo.php?fbid=1835069433269419\&set=gm.751003141928341\&type=3\&theater\&ifg=1}{Chuck Kub}{]} is a little old, but gives a sense of which models are available in which countries.
+
+\textbf{China:} buy a reader plus 3 14-day sensor packs \href{https://item.jd.com/32498232197.html}{through Taobao} for about 1800 RMB (USD\$270)
 
 \hypertarget{third-party}{%
 \section{Third Party}\label{third-party}}

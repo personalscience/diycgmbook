@@ -6,6 +6,7 @@ what-to-buy
 companies-and-cgm-based-products
 diet-and-food-tracking
 using-your-cgm-data
+use-the-personal-science-app
 abbott-labs-official
 international-versions
 third-party
@@ -18,4 +19,3 @@ freestyle-compatible
 other-hardware
 scientific-articles
 other-summary-resources
-use-the-personal-science-app
