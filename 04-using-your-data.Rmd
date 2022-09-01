@@ -4,7 +4,10 @@ Websites and apps that help you track glucose numbers.
 
 ## Use the Personal Science App
 
-The best way to analyze your CGM data is with the CGM app from Personal Science (makers of this web site). You can upload your data and study it for free using the open source software [here](https://github.com/personalscience/taster).  Uses Docker.
+The best way to analyze your CGM data is with the CGM app from Personal Science (makers of this web site). You can upload your data and study it for free using the open source software [here](https://github.com/personalscience/taster).  Uses Docker.  Requires a little setup, but it will let you upload a CSV file and generate plots like this:
+
+![](images/glucose_Levels_After_Eating_Rice.jpg)
+
 
 ## Abbott Labs Official
 
