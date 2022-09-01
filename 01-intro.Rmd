@@ -8,6 +8,8 @@ Also read this [good overview](https://medium.com/steady-health/the-ultimate-gui
 
 # News and User Experiences
 
+-   **Self-tracker blog.kto.to** [documents his extensive food tests](https://blog.kto.to/continous-glucose-monitoring-and-food-testing), with many links to other useful sources of information.
+
 -   **New York Times Health Reporter Anahad O'Connor** wrote about Nutrisense, January.ai, and his personal experience using Levels Health. <https://www.nytimes.com/2021/02/08/well/diet-glucose-monitor.html>
 
 -   **Lydia Ramsey**, senior reporter at Business Insider wrote a detailed summary of using a Dexcom G6: <https://www.businessinsider.com/what-its-like-to-track-blood-sugar-with-a-continuous-glucose-monitor-2019-11>
