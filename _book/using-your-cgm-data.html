@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 6 Using Your CGM Data | DIYCGM</title>
   <meta name="description" content="How to do your own personal science experiments with continuous glucose monitoring." />
-  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.28 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 6 Using Your CGM Data | DIYCGM" />
   <meta property="og:type" content="book" />
@@ -23,7 +23,7 @@
 <meta name="author" content="https://personalscience.com" />
 
 
-<meta name="date" content="2022-05-25" />
+<meta name="date" content="2022-09-01" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -127,20 +127,19 @@
 <p>Websites and apps that help you track glucose numbers.</p>
 <div id="use-the-personal-science-app" class="section level2 hasAnchor" number="6.1">
 <h2><span class="header-section-number">6.1</span> Use the Personal Science App<a href="using-your-cgm-data.html#use-the-personal-science-app" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>The best way to analyze your CGM data is with the CGM app from Personal Science (makers of this web site). You can upload your data and study it for free here:</p>
-<p><a href="https://cgm.personalscience.com" class="uri">https://cgm.personalscience.com</a></p>
+<p>The best way to analyze your CGM data is with the CGM app from Personal Science (makers of this web site). You can upload your data and study it for free using the open source software <a href="https://github.com/personalscience/taster">here</a>. Uses Docker.</p>
 </div>
 <div id="abbott-labs-official" class="section level2 hasAnchor" number="6.2">
 <h2><span class="header-section-number">6.2</span> Abbott Labs Official<a href="using-your-cgm-data.html#abbott-labs-official" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>The most important software for Freestyle Libre downloading is the officially-supported one here:</p>
-<p><a href="https://provider.myfreestyle.com/freestyle-libre-resources.html">https://provider.myfreestyle.com/freestyle-libre-resources.html</a></p>
+<p><a href="https://provider.myfreestyle.com/freestyle-libre-resources.html" class="uri">https://provider.myfreestyle.com/freestyle-libre-resources.html</a></p>
 <p>Create an account on Libreview and then you can download your data as a CSV file here:</p>
-<p><a href="https://www.libreview.com/meter">https://www.libreview.com/meter</a></p>
+<p><a href="https://www.libreview.com/meter" class="uri">https://www.libreview.com/meter</a></p>
 <div class="figure">
 <img src="images/freestyle-download.jpg" title="image_tooltip" alt="" />
 <p class="caption">Libreview main page</p>
 </div>
-<p>Then click here: <a href="https://www.libreview.com/glucosereports">https://www.libreview.com/glucosereports</a></p>
+<p>Then click here: <a href="https://www.libreview.com/glucosereports" class="uri">https://www.libreview.com/glucosereports</a></p>
 <div class="figure">
 <img src="images/freestyle-download-click.jpg" title="image_tooltip" alt="" />
 <p class="caption">Click to download</p>
@@ -160,73 +159,55 @@
 <div id="third-party" class="section level2 hasAnchor" number="6.4">
 <h2><span class="header-section-number">6.4</span> Third Party<a href="using-your-cgm-data.html#third-party" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Many organizations now offer ways to upload and use your Freestyle (or other CGM) data.</p>
-<table>
-<tr>
-<td>
-<strong>Nightscout</strong>
-<p>
-“an open source, DIY project that allows real time access to a CGM data via personal website, smartwatch viewers, or apps and widgets available for smartphones”
-<p>
-See their app <a href="https://spike-app.com/">https://spike-app.com/</a>
-</td>
-<td>
-</td>
-<td>
-<img src="images/nightscout-logo.png" width="" alt="alt_text" title="image_tooltip">
-<a href="http://www.nightscout.info/">http://www.nightscout.info/</a>
-</td>
+<table style="width:100%;">
+<colgroup>
+<col width="60%" />
+<col width="1%" />
+<col width="37%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>Nightscout</strong></p>
+<p>"an open source, DIY project that allows real time access to a CGM data via personal website, smartwatch viewers, or apps and widgets available for smartphones"</p>
+<p>See their app <a href="https://spike-app.com/" class="uri">https://spike-app.com/</a></p></td>
+<td></td>
+<td><img src="images/nightscout-logo.png" title="image_tooltip" alt="alt_text" /> <a href="http://www.nightscout.info/" class="uri">http://www.nightscout.info/</a></td>
 </tr>
-<tr>
-<td>
-<strong>Diasend</strong>
-<p>
-(formerly called<a href="https://www-int.glooko.com/"> Glooko</a>) tries to let you upload data from anywhere
-</td>
-<td>
-</td>
-<td>
-<img src="images/diasend-logo.png" width="" alt="alt_text" title="image_tooltip">
-<a href="https://diasend.com/us">https://diasend.com/us</a>
-</td>
+<tr class="even">
+<td><p><strong>Diasend</strong></p>
+<p>(formerly called<a href="https://www-int.glooko.com/">Glooko</a>) tries to let you upload data from anywhere</p></td>
+<td></td>
+<td><img src="images/diasend-logo.png" title="image_tooltip" alt="alt_text" /> <a href="https://diasend.com/us" class="uri">https://diasend.com/us</a></td>
 </tr>
-<tr>
-<td>
-<strong>Tidepool</strong> <a href="https://app.tidepool.org/patients">https://app.tidepool.org/patients</a>
-<p>
-Open-source non-profit place to upload glucose data
-</td>
-<td>
-</td>
-<td>
-<p><img src="images/tidepool-logo.png" width="" alt="alt_text" title="image_tooltip"></p>
-<p>
-<a href="https://tidepool.org">https://tidepool.org</a>
-</td>
+<tr class="odd">
+<td><p><strong>Tidepool</strong> <a href="https://app.tidepool.org/patients" class="uri">https://app.tidepool.org/patients</a></p>
+<p>Open-source non-profit place to upload glucose data</p></td>
+<td></td>
+<td><div class="figure">
+<img src="images/tidepool-logo.png" title="image_tooltip" alt="alt_text" />
+<p class="caption">alt_text</p>
+</div>
+<p><a href="https://tidepool.org" class="uri">https://tidepool.org</a></p></td>
 </tr>
-<tr>
-<td>
-<strong>Diabetes:M </strong>
-</td>
-<td>
-</td>
-<td>
-<p><img src="images/miaomiao-logo.png" width="" alt="alt_text" title="image_tooltip"></p>
-<p>
-<a href="https://diabetes-m.com/" class="uri">https://diabetes-m.com/</a>
-</td>
+<tr class="even">
+<td><strong>Diabetes:M</strong></td>
+<td></td>
+<td><div class="figure">
+<img src="images/miaomiao-logo.png" title="image_tooltip" alt="alt_text" />
+<p class="caption">alt_text</p>
+</div>
+<p><a href="https://diabetes-m.com/" class="uri">https://diabetes-m.com/</a></p></td>
 </tr>
-<tr>
-<td>
-<strong>Glimp</strong> : popular Android app
-</td>
-<td>
-</td>
-<td>
-<p><img src="images/glimp-logo.png" width="" alt="alt_text" title="image_tooltip"></p>
-<p>
-<a href="https://play.google.com/store/apps/details?id=it.ct.glicemia">https://play.google.com/store/apps/details?id=it.ct.glicemia</a>
-</td>
+<tr class="odd">
+<td><strong>Glimp</strong> : popular Android app</td>
+<td></td>
+<td><div class="figure">
+<img src="images/glimp-logo.png" title="image_tooltip" alt="alt_text" />
+<p class="caption">alt_text</p>
+</div>
+<p><a href="https://play.google.com/store/apps/details?id=it.ct.glicemia" class="uri">https://play.google.com/store/apps/details?id=it.ct.glicemia</a></p></td>
 </tr>
+</tbody>
 </table>
 </div>
 </div>
