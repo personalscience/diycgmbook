@@ -1,0 +1,44 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "DIY CGM"
+  author: "Personal Science"
+  subtitle: "Practical techniques to apply scientific principles to your own life."
+  description: "How to do your own personal science experiments with continuous glucose monitoring."
+  date: last-modified
+  downloads: [epub, pdf, docx]
+  chapters:
+    - part: "General Overview"
+      chapters:
+        - index.qmd
+        - 01-intro.qmd
+        - 02-get-your-cgm.qmd
+        - news-and-experiences.qmd
+    - part: "Techniques"
+      chapters:
+        - 03-food-tracking.qmd
+        - 04-using-your-data.qmd
+        - 05-advanced.qmd
+    - 06-references.qmd
+
+bibliography:
+  - book.bib
+
+extract-media: "assets/images"
+license: "MIT"
+
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    css: css/normalize.css
+  pdf:
+    documentclass: scrreprt
+  epub:
+    css: css/normalize.css
+
+
+editor: visual
