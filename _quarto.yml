@@ -1,6 +1,16 @@
 project:
+  title: "DIY CGM"
   type: book
   output-dir: _book
+
+website:
+  page-footer:
+    left: "Personal Science <https://personalscience.com>"
+    right:
+      - icon: github
+        href: https://github.com/personalscience/diycgmbook
+      - icon: twitter
+        href: https://twitter.com/sprague
 
 book:
   title: "DIY CGM"
@@ -8,7 +18,8 @@ book:
   subtitle: "Practical techniques to apply scientific principles to your own life."
   description: "How to do your own personal science experiments with continuous glucose monitoring."
   date: last-modified
-  downloads: [epub, pdf, docx]
+  downloads: [epub, docx]
+  output-file: diycgm
   chapters:
     - part: "General Overview"
       chapters:
@@ -35,10 +46,11 @@ format:
     theme: cosmo
     toc: true
     css: css/normalize.css
-  pdf:
-    documentclass: scrreprt
   epub:
     css: css/normalize.css
-
+  docx:
+    toc: true
+    number-sections: true
+    highlight-style: github
 
 editor: visual
