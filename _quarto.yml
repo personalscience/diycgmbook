@@ -43,9 +43,9 @@ license: "MIT"
 
 format:
   html:
-    theme: cosmo
+    theme: literata
     toc: true
-    css: css/normalize.css
+    css: css/theme.css
   epub:
     css: css/normalize.css
   docx:
