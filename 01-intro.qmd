@@ -4,4 +4,4 @@ This is a list of resources useful for building products that work with continuo
 
 ![](images/sprague-neolife.png) Start with this article by [Richard Sprague](https://twitter.com/sprague) at NEO.LIFE: ["Personalized Health Advice Every 60 Seconds"](https://neo.life/2019/01/personalized-health-advice-every-60-seconds/).
 
-Also read this [good overview](https://medium.com/steady-health/the-ultimate-guide-to-continuous-glucose-monitors-cgm-611eecc70c9a) by Henrik Berggren from Steady.Health.
+Also read this [good overview](https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes/continuous-glucose-monitoring) from the NIH.

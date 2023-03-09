@@ -16,22 +16,24 @@ There are three ways to get one in the US:
 
 Buy the 14-day sensor by itself. If you have an iPhone 7 + or an Android, don't bother buying the Reader (which is an additional US\$200).
 
-## Companies and CGM-Based Products
+## Commercial CGM Products
 
-Several companies will give you a month's worth of CGM with an app and nutrition advice for under \$500. See [link below](#bookmark=id.d7g3e8qlegnl).
+Several companies will give you a month's worth of CGM with an app and nutrition advice for under \$500. 
+
+![Levels Health](images/levelshealth-logo.png "Levels Health")
+
+<https://www.levelshealth.com/> offers "metabolic health" services, including a month's supply of CGMs and nutritionist consultation for about \$400/year. They'll sell additional sensors "at cost".
 
 ![January, Inc.](images/january-logo.png "January.AI Logo")
 
-<https://january.ai/> \$499 4-week program includes 2 Freestyle Libre devices and an app to guide your eating, fasting, and exercise choices.
+<https://january.ai/> \$300 2-week program includes 1 Freestyle Libre device and an app to guide your eating, fasting, and exercise choices. The app claims it will predict your glucose levels after that using their "virtual CGM".
 
 ![Nutrisense](images/nutrisense-logo.png "Nutrisense Logo")
 
 <https://www.nutrisense.io/>: Join their "cohort" and receive 2 CGM devices/month and 24/7 nutritionist advice with an app that tracks your glucose, fasting, and more.
 
-![Steady Health](images/steadyhealth-logo.png "Steady Health")
 
-<https://steady.health/> a San Francisco-based clinic providing CGM-centric diabetes care. Their programs cost about \$60 / month and include AI-aided smartphone-based coaching and education around food and exercise, plus data interpretation with an endocrinologist. This is a good choice if your doctor has diagnosed you with diabetes.
 
-![Levels Health](images/levelshealth-logo.png "Levels Health")
+![Aspect](https://uploads-ssl.webflow.com/5e185e46d27bcfd7730106db/61ae83248735897617fec36f_logo.svg) 
 
-<https://www.levelshealth.com/> offers "metabolic health" services, including a CGM and nutritionist consultation for about \$400/month. You'll need to request access for a specific quote and availability.
+[Aspect Health](https://aspect-health.com/) focuses specifically on women's metabolic health. You can get their "21 Day Assessment", which includes an app, a metabolic report, and a coaching session for /$200.
