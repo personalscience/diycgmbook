@@ -23,16 +23,16 @@ book:
   chapters:
     - part: "General Overview"
       chapters:
-        - index.qmd
-        - 01-intro.qmd
-        - 02-get-your-cgm.qmd
-        - news-and-experiences.qmd
+        - index.md
+        - "Projects/Personal Science/PS-CGM/Introduction.md"
+        - "Projects/Personal Science/PS-CGM/How to get your CGM.md"
+        - "Projects/Personal Science/PS-CGM/News and Experiences.md"
     - part: "Techniques"
       chapters:
-        - 03-food-tracking.qmd
-        - 04-using-your-data.qmd
-        - 05-advanced.qmd
-    - 06-references.qmd
+        - "Projects/Personal Science/PS-CGM/Diet and food-tracking.md"
+        - "Projects/Personal Science/PS-CGM/Using Your CGM Data.md"
+        - "Projects/Personal Science/PS-CGM/Advanced Topics.md"
+    - References.qmd
 
 bibliography:
   - book.bib

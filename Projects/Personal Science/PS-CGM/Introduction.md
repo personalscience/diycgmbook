@@ -1,0 +1,9 @@
+# Introduction {#intro}
+
+This is a list of resources useful for building products that work with continuous glucose monitoring devices. Consider this document to be in the public domain, free to use however you like (but of course with absolutely no guarantees of accuracy).
+
+![](images/sprague-neolife.png) 
+
+Start with this article by [Richard Sprague](https://twitter.com/sprague) at NEO.LIFE: ["Personalized Health Advice Every 60 Seconds"](https://neo.life/2019/01/personalized-health-advice-every-60-seconds/).
+
+Also read this [good overview](https://www.niddk.nih.gov/health-information/diabetes/overview/managing-diabetes/continuous-glucose-monitoring) from the NIH.
