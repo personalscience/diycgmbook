@@ -7,7 +7,7 @@ Before you buy one of those expensive kits from one of the many commercial compa
 
 This site will show you step-by-step how to get the same results as the expensive products: an instant look at your glucose levels at any time day or night.  After that, you can decide for yourself it it's worth it for you to buy the other services.
 
-2023-04-04 10:53 AM
+2023-06-13 12:06 PM
 
 
 
