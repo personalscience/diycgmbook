@@ -4,104 +4,207 @@
     "href": "index.html",
     "title": "DIY CGM",
     "section": "",
-    "text": "1 Prerequisites\nContinuous glucose monitoring (CGM) is among the most exciting personal science experiments you can conduct on yourself. This book will explain how to get started.\nBefore you buy one of those expensive kits from one of the many commercial companies that offer the devices as part of their diet and nutrition programs, learn how to do it yourself for about $30 - $50. All of the direct-to-consumer kits use the same FDA-regulated device that is available at your local pharmacy for fraction of the price.\nThis site will show you step-by-step how to get the same results as the expensive products: an instant look at your glucose levels at any time day or night. After that, you can decide for yourself it it’s worth it for you to buy the other services.\n2023-06-13 12:06 PM"
+    "text": "1 Prerequisites\nContinuous glucose monitoring (CGM) is among the most exciting personal science experiments you can conduct on yourself. This book will explain how to get started.\nBefore you buy one of those expensive kits from one of the many commercial companies that offer the devices as part of their diet and nutrition programs, learn how to do it yourself for about $30 - $50. All of the direct-to-consumer kits use the same FDA-regulated device that is available at your local pharmacy for fraction of the price.\nThis site will show you step-by-step how to get the same results as the expensive products: an instant look at your glucose levels at any time day or night. After that, you can decide for yourself it it’s worth it for you to buy the other services.\n2023-06-13 12:06 PM",
+    "crumbs": [
+      "General Overview",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>index</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/Introduction.html",
     "href": "Projects/Personal Science/PS-CGM/Introduction.html",
     "title": "2  Introduction",
     "section": "",
-    "text": "This is a list of resources useful for building products that work with continuous glucose monitoring devices. Consider this document to be in the public domain, free to use however you like (but of course with absolutely no guarantees of accuracy).\n\nStart with this article by Richard Sprague at NEO.LIFE: “Personalized Health Advice Every 60 Seconds”.\nAlso read this good overview from the NIH."
+    "text": "3 Introduction\nThis is a list of resources useful for building products that work with continuous glucose monitoring devices. Consider this document to be in the public domain, free to use however you like (but of course with absolutely no guarantees of accuracy).\n\nStart with this article by Richard Sprague at NEO.LIFE: “Personalized Health Advice Every 60 Seconds”.\nAlso read this good overview from the NIH.",
+    "crumbs": [
+      "General Overview",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "Projects/Personal Science/PS-CGM/How to get your CGM.html",
+    "href": "Projects/Personal Science/PS-CGM/How to get your CGM.html",
+    "title": "3  How to get your CGM",
+    "section": "",
+    "text": "4 How to get your CGM\nThe FreeStyle Libre is available over-the-counter at most pharmacies throughout the world (including Mexico and Canada), but requires a doctor’s prescription in the United States.\nA month’s supply of sensors costs under US$100, so don’t bother trying to get your health insurance to reimburse you unless you have a specific medical reason, in which case consult your doctor.\nThere are three ways to get one in the US:",
+    "crumbs": [
+      "General Overview",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>How to get your CGM</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/How to get your CGM.html#what-to-buy",
     "href": "Projects/Personal Science/PS-CGM/How to get your CGM.html#what-to-buy",
     "title": "3  How to get your CGM",
-    "section": "3.1 What to buy",
-    "text": "3.1 What to buy\nBuy the 14-day sensor by itself. If you have an iPhone 7 + or an Android, don’t bother buying the Reader (which is an additional US$200)."
+    "section": "4.1 What to buy",
+    "text": "4.1 What to buy\nBuy the 14-day sensor by itself. If you have an iPhone 7 + or an Android, don’t bother buying the Reader (which is an additional US$200).",
+    "crumbs": [
+      "General Overview",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>How to get your CGM</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/How to get your CGM.html#commercial-cgm-products",
     "href": "Projects/Personal Science/PS-CGM/How to get your CGM.html#commercial-cgm-products",
     "title": "3  How to get your CGM",
-    "section": "3.2 Commercial CGM Products",
-    "text": "3.2 Commercial CGM Products\nSeveral companies will give you a month’s worth of CGM with an app and nutrition advice for under $500.\n\n\n\nLevels Health\n\n\nhttps://www.levelshealth.com/ offers “metabolic health” services, including a month’s supply of CGMs and nutritionist consultation for about $400/year. They’ll sell additional sensors “at cost”.\n\n\n\nJanuary, Inc.\n\n\nhttps://january.ai/ $300 2-week program includes 1 Freestyle Libre device and an app to guide your eating, fasting, and exercise choices. The app claims it will predict your glucose levels after that using their “virtual CGM”.\n\n\n\nNutrisense\n\n\nhttps://www.nutrisense.io/: Join their “cohort” and receive 2 CGM devices/month and 24/7 nutritionist advice with an app that tracks your glucose, fasting, and more.\n\n\n\nAspect\n\n\nAspect Health focuses specifically on women’s metabolic health. You can get their “21 Day Assessment”, which includes an app, a metabolic report, and a coaching session for /$200."
+    "section": "4.2 Commercial CGM Products",
+    "text": "4.2 Commercial CGM Products\nSeveral companies will give you a month’s worth of CGM with an app and nutrition advice for under $500.\n\n\n\nLevels Health\n\n\nhttps://www.levelshealth.com/ offers “metabolic health” services, including a month’s supply of CGMs and nutritionist consultation for about $400/year. They’ll sell additional sensors “at cost”.\n\n\n\nJanuary, Inc.\n\n\nhttps://january.ai/ $300 2-week program includes 1 Freestyle Libre device and an app to guide your eating, fasting, and exercise choices. The app claims it will predict your glucose levels after that using their “virtual CGM”.\n\n\n\nNutrisense\n\n\nhttps://www.nutrisense.io/: Join their “cohort” and receive 2 CGM devices/month and 24/7 nutritionist advice with an app that tracks your glucose, fasting, and more.\n\n\n\nAspect\n\n\nAspect Health focuses specifically on women’s metabolic health. You can get their “21 Day Assessment”, which includes an app, a metabolic report, and a coaching session for /$200.",
+    "crumbs": [
+      "General Overview",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>How to get your CGM</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/News and Experiences.html",
     "href": "Projects/Personal Science/PS-CGM/News and Experiences.html",
-    "title": "4  News and Experiences",
+    "title": "News and Experiences",
     "section": "",
-    "text": "5 News and User Experiences\n\nSelf-tracker blog.kto.to documents his extensive food tests, with many links to other useful sources of information.\nNew York Times Health Reporter Anahad O’Connor wrote about Nutrisense, January.ai, and his personal experience using Levels Health. https://www.nytimes.com/2021/02/08/well/diet-glucose-monitor.html\nLydia Ramsey, senior reporter at Business Insider wrote a detailed summary of using a Dexcom G6: https://www.businessinsider.com/what-its-like-to-track-blood-sugar-with-a-continuous-glucose-monitor-2019-11\nEric Jain wrote a short, highly-readable account of his month-long experience: https://eric.jain.name/2018/11/25/tracking-blood-sugar/\n\nAnd a Hacker News thread about his post\n\nQuantified Diabetes does rigorous self-experimentation at https://quantifieddiabetes.com/p/experiments.html.\n\nLily Nichols is a registered dietitian who wrote “What I Learned as a Non-Diabetic”\nJimi S, a 25-year-old diabetic wrote a lengthy review: Review: FreeStyle Libre — Abbott Diabetes Care | by Jimi S.\n“Quantified Bob” Troia wrote “How to measure personal glucose response to foods”\nJennifer Wang writes “Am I Crazy Because I Eat Too Much Sugar?”: https://medium.com/@neogeo25/am-i-crazy-because-i-eat-too-much-sugar-a-cgm-experiment-5b310f334f10\nFollow Jessie Inchaspe’s incredible Instagram account on her experiences with food and CGM: https://www.instagram.com/glucosegoddess/\n\n\n\n\nGlucose Goddess\n\n\n\nKevin Bass n-of-1: A PhD student kept (2018-19) a live Twitter feed of his CGM data\nWhy Perfectly Healthy People Are Using Glucose Monitors:Time Magazine article from 2017\nHacker News thread about CGMs and sugar metabolism\nInteractive web app with daily updates from the Personal Science glucose monitor.\nHow accurate it is: a user posts side-by-side comparisons of Freestyle Libre vs pinprick\nReddit forums Lots of posts in diabetes-related forums\n\nLibre2 announcement (Oct 2018)"
+    "text": "The FDA approved the first over-the-counter CGM (see Hacker News)\n\n5 News and User Experiences\nNerdabetic (YouTube and Instagram) makes hundreds of videos describing the CGM experience.\n\n\n\nDiabetes technology news from Nerdabetic\n\n\n\nSelf-tracker blog.kto.to documents his extensive food tests, with many links to other useful sources of information.\nNew York Times Health Reporter Anahad O’Connor wrote about Nutrisense, January.ai, and his personal experience using Levels Health. https://www.nytimes.com/2021/02/08/well/diet-glucose-monitor.html\nLydia Ramsey, senior reporter at Business Insider wrote a detailed summary (2019) of using a Dexcom G6:\nEric Jain wrote a short, highly-readable account of his month-long experience: https://eric.jain.name/2018/11/25/tracking-blood-sugar/\n\nAnd a Hacker News thread about his post\n\nQuantified Diabetes does rigorous self-experimentation at https://quantifieddiabetes.com/p/experiments.html.\n\nLily Nichols is a registered dietitian who wrote “What I Learned as a Non-Diabetic”\nJimi S, a 25-year-old diabetic wrote a lengthy review: Review: FreeStyle Libre — Abbott Diabetes Care | by Jimi S.\n“Quantified Bob” Troia wrote “How to measure personal glucose response to foods”\nJennifer Wang writes “Am I Crazy Because I Eat Too Much Sugar?”\nFollow Jessie Inchaspe’s incredible Instagram account on her experiences with food and CGM: https://www.instagram.com/glucosegoddess/\n\n “Jessie Inchaspe Instagram”)\n\nKevin Bass n-of-1: A PhD student kept (2018-19) a live Twitter feed of his CGM data\nWhy Perfectly Healthy People Are Using Glucose Monitors:Time Magazine article from 2017\nHacker News thread about CGMs and sugar metabolism\nInteractive web app with daily updates from the Personal Science glucose monitor.\nHow accurate it is: a user posts side-by-side comparisons of Freestyle Libre vs pinprick\nReddit forums Lots of posts in diabetes-related forums\n\nLibre2 announcement (Oct 2018)",
+    "crumbs": [
+      "General Overview",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>News and Experiences</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/Diet and food-tracking.html",
     "href": "Projects/Personal Science/PS-CGM/Diet and food-tracking.html",
     "title": "5  Diet and food-tracking",
     "section": "",
-    "text": "Apps and websites useful for nutrition tracking\n\n\n\nBitesnap: take a photo of your food and get an AI-based identification, plus macronutrients and calories. Recognizes 1300+ foods.\n\n https://getbitesnap.com/\n\n\nLoseIt: Food database with 7 million+ foods, restaurant items and brands from around the world, hand curated by our on-staff nutrition experts.\n\n\nhttps://www.loseit.com/\n\n\nMyFitnessPal : 6 million foods, largest online community, connects to 50+ apps\n\n\nhttps://www.myfitnesspal.com/\n\n\nCronometer\nLarge, curated food database. Widely used among professionals due to its in-depth tracking of nutrients and comprehensive data export.\n\n\nhttps://cronometer.com/"
+    "text": "6 Diet and food-tracking\nApps and websites useful for nutrition tracking\n\n\n\nBitesnap: take a photo of your food and get an AI-based identification, plus macronutrients and calories. Recognizes 1300+ foods.\n\n https://getbitesnap.com/\n\n\nLoseIt: Food database with 7 million+ foods, restaurant items and brands from around the world, hand curated by our on-staff nutrition experts.\n\n\n\n\nalt_text\n\n\nhttps://www.loseit.com/\n\n\nMyFitnessPal : 6 million foods, largest online community, connects to 50+ apps\n\n\n\n\nMyFitnessPal\n\n\nhttps://www.myfitnesspal.com/\n\n\nCronometer\nLarge, curated food database. Widely used among professionals due to its in-depth tracking of nutrients and comprehensive data export.\n\n\n\n\nalt_text\n\n\nhttps://cronometer.com/",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Diet and food-tracking</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/Using Your CGM Data.html",
     "href": "Projects/Personal Science/PS-CGM/Using Your CGM Data.html",
     "title": "6  Using Your CGM Data",
     "section": "",
-    "text": "7 Open Source Software"
+    "text": "7 Using Your CGM Data\nWebsites and apps that help you track glucose numbers.",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Using Your CGM Data</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/Using Your CGM Data.html#use-the-personal-science-app",
     "href": "Projects/Personal Science/PS-CGM/Using Your CGM Data.html#use-the-personal-science-app",
     "title": "6  Using Your CGM Data",
-    "section": "6.1 Use the Personal Science App",
-    "text": "6.1 Use the Personal Science App\nThe best way to analyze your CGM data is with the CGM app from Personal Science (makers of this web site). You can upload your data and study it for free using the open source software here. Uses Docker. Requires a little setup, but it will let you upload a CSV file and generate plots like this:"
+    "section": "7.1 Use the Personal Science App",
+    "text": "7.1 Use the Personal Science App\nThe best way to analyze your CGM data is with the CGM app from Personal Science (makers of this web site). You can upload your data and study it for free using the open source software here. Uses Docker. Requires a little setup, but it will let you upload a CSV file and generate plots like this:",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Using Your CGM Data</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/Using Your CGM Data.html#abbott-labs-official",
     "href": "Projects/Personal Science/PS-CGM/Using Your CGM Data.html#abbott-labs-official",
     "title": "6  Using Your CGM Data",
-    "section": "6.2 Abbott Labs Official",
-    "text": "6.2 Abbott Labs Official\nThe most important software for Freestyle Libre downloading is the officially-supported one here:\nhttps://provider.myfreestyle.com/freestyle-libre-resources.html\nCreate an account on Libreview and then you can download your data as a CSV file here:\nhttps://www.libreview.com/meter\n\n\n\nLibreview main page\n\n\nThen click here: https://www.libreview.com/glucosereports\n\n\n\nClick to download\n\n\nIf you have the Abbott custom reader device, you can also download a Mac or Windows version of Freestyle Libre personal CGM\n\n\n\nFreestyle Libre Software"
+    "section": "7.2 Abbott Labs Official",
+    "text": "7.2 Abbott Labs Official\nThe most important software for Freestyle Libre downloading is the officially-supported one here:\nhttps://provider.myfreestyle.com/freestyle-libre-resources.html\nCreate an account on Libreview and then you can download your data as a CSV file here:\nhttps://www.libreview.com/meter\n\n\n\nLibreview main page\n\n\nThen click here: https://www.libreview.com/glucosereports\n\n\n\nClick to download\n\n\nIf you have the Abbott custom reader device, you can also download a Mac or Windows version of Freestyle Libre personal CGM\n\n\n\nFreestyle Libre Software",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Using Your CGM Data</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/Using Your CGM Data.html#international-versions",
     "href": "Projects/Personal Science/PS-CGM/Using Your CGM Data.html#international-versions",
     "title": "6  Using Your CGM Data",
-    "section": "6.3 International versions",
-    "text": "6.3 International versions\nFreestyle Libre devices sold in other countries will generally work everywhere if you use the app downloaded specifically for that country.\nThis [table by Chuck Kub] is a little old, but gives a sense of which models are available in which countries.\nChina: buy a reader plus 3 14-day sensor packs through Taobao for about 1800 RMB (USD$270)"
+    "section": "7.3 International versions",
+    "text": "7.3 International versions\nFreestyle Libre devices sold in other countries will generally work everywhere if you use the app downloaded specifically for that country.\nThis [table by Chuck Kub] is a little old, but gives a sense of which models are available in which countries.\nChina: buy a reader plus 3 14-day sensor packs through Taobao for about 1800 RMB (USD$270)",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Using Your CGM Data</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/Using Your CGM Data.html#third-party",
     "href": "Projects/Personal Science/PS-CGM/Using Your CGM Data.html#third-party",
     "title": "6  Using Your CGM Data",
-    "section": "6.4 Third Party",
-    "text": "6.4 Third Party\nMany organizations now offer ways to upload and use your Freestyle (or other CGM) data.\n\n\n\nNightscout\n\"an open source, DIY project that allows real time access to a CGM data via personal website, smartwatch viewers, or apps and widgets available for smartphones\"\nSee their app https://spike-app.com/\n\n http://www.nightscout.info/\n\n\nDiasend\n(formerly calledGlooko) tries to let you upload data from anywhere\n\n https://diasend.com/us\n\n\nTidepool https://app.tidepool.org/patients\nOpen-source non-profit place to upload glucose data\n\n\nhttps://tidepool.org\n\n\nDiabetes:M\n\n\nhttps://diabetes-m.com/\n\n\nGlimp : popular Android app\n\n\nhttps://play.google.com/store/apps/details?id=it.ct.glicemia"
+    "section": "7.4 Third Party",
+    "text": "7.4 Third Party\nMany organizations now offer ways to upload and use your Freestyle (or other CGM) data.\n\n\n\nNightscout\n\"an open source, DIY project that allows real time access to a CGM data via personal website, smartwatch viewers, or apps and widgets available for smartphones\"\nSee their app https://spike-app.com/\n\n http://www.nightscout.info/\n\n\nDiasend\n(formerly calledGlooko) tries to let you upload data from anywhere\n\n https://diasend.com/us\n\n\nTidepool https://app.tidepool.org/patients\nOpen-source non-profit place to upload glucose data\n\n\n\n\nalt_text\n\n\nhttps://tidepool.org\n\n\nDiabetes:M\n\n\n\n\nalt_text\n\n\nhttps://diabetes-m.com/\n\n\nGlimp : popular Android app\n\n\n\n\nalt_text\n\n\nhttps://play.google.com/store/apps/details?id=it.ct.glicemia",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Using Your CGM Data</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/Advanced Topics.html",
     "href": "Projects/Personal Science/PS-CGM/Advanced Topics.html",
     "title": "7  Advanced Topics",
     "section": "",
-    "text": "8 Other Summary Resources\nOther places to find more links and other information\nContinuous Glucose Monitor page for the open source Loop project."
+    "text": "8 Advanced Topics",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Advanced Topics</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/Advanced Topics.html#other-sites",
     "href": "Projects/Personal Science/PS-CGM/Advanced Topics.html#other-sites",
     "title": "7  Advanced Topics",
-    "section": "7.1 Other Sites",
-    "text": "7.1 Other Sites\nSites that are useful for general background\n\nAbbott Freestyle Libre Users (Facebook): https://www.facebook.com/groups/748445301888935/\n\nActive (20K members) and includes people from Abbott\n\nDiabettech site: https://www.diabettech.com/freestylelibre/\nQS Guide: Testing Food with Blood Glucose: another nice overview: https://quantifiedself.com/blog/qs-guide-testing-food-with-blood-glucose/\nQuantified Self Conference 2018 had a breakout session: see their notes here: https://forum.quantifiedself.com/t/qs18-links-and-resources/5885/4 which are based on a lengthy May 2017 thread by Gary Wolf in the same forum.\nFreestyle Libre Tips and Hacks: Youtube videos by Nerdabetic\nhttps://www.youtube.com/watch?v=o7R5Of-iWfk\nReddit: /r/Diabetes\n\nEspecially check the thread on “Things you wished you knew about the Freestyle sensors”"
+    "section": "8.1 Other Sites",
+    "text": "8.1 Other Sites\nSites that are useful for general background\n\nAbbott Freestyle Libre Users (Facebook): https://www.facebook.com/groups/748445301888935/\n\nActive (20K members) and includes people from Abbott\n\nDiabettech site: https://www.diabettech.com/freestylelibre/\nQS Guide: Testing Food with Blood Glucose: another nice overview: https://quantifiedself.com/blog/qs-guide-testing-food-with-blood-glucose/\nQuantified Self Conference 2018 had a breakout session: see their notes here: https://forum.quantifiedself.com/t/qs18-links-and-resources/5885/4 which are based on a lengthy May 2017 thread by Gary Wolf in the same forum.\nFreestyle Libre Tips and Hacks: Youtube videos by Nerdabetic\nhttps://www.youtube.com/watch?v=o7R5Of-iWfk\nReddit: /r/Diabetes\n\nEspecially check the thread on “Things you wished you knew about the Freestyle sensors”",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Advanced Topics</span>"
+    ]
+  },
+  {
+    "objectID": "Projects/Personal Science/PS-CGM/Advanced Topics.html#using-ai",
+    "href": "Projects/Personal Science/PS-CGM/Advanced Topics.html#using-ai",
+    "title": "7  Advanced Topics",
+    "section": "8.2 Using AI",
+    "text": "8.2 Using AI\nFrom Glucose Patterns to Health Outcomes: A Generalizable Foundation Model for Continuous Glucose Monitor Data Analysis Lutsker et al. (2024)",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Advanced Topics</span>"
+    ]
+  },
+  {
+    "objectID": "Projects/Personal Science/PS-CGM/Advanced Topics.html#software-packages",
+    "href": "Projects/Personal Science/PS-CGM/Advanced Topics.html#software-packages",
+    "title": "7  Advanced Topics",
+    "section": "8.3 Software Packages",
+    "text": "8.3 Software Packages\nInterpreting blood GLUcose data with R package iglu an R package with zillions of CGM-related functions",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Advanced Topics</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/Advanced Topics.html#hardware",
     "href": "Projects/Personal Science/PS-CGM/Advanced Topics.html#hardware",
     "title": "7  Advanced Topics",
-    "section": "7.2 Hardware",
-    "text": "7.2 Hardware\n\n7.2.1 Freestyle Libre hardware information\n\nFreestyle Libre sensor teardown: Blogger Ido Roseman takes one apart, with photos.\nReddit forum says: “it would appear that Libre sensors use NfcV, while S8 does not support NfcV (ISO 15693) but happily talks over NfcA and NfcB (ISO/IEC 14443). “\nInsulin calculator: settings/professional and password = CAA1C\n\n\n\n7.2.2 Freestyle-compatible\nHardware devices that work with the Freestyle Libre. Using an NFC reader that talks directly to the Libre sensor, they send information to a bluetooth phone.\n\nMiaoMiao Shanghai company $200\nAmbrosia Systems Nightrider: $110 NFC-to-bluetooth device\nBubblan: Supports All Libre Sensors except US Libre2 version : 139.99€\n\n\n\n7.2.3 Other hardware\n\nBionous: Seattle-Bellevue company that claims to have a low-cost non-invasive glucose reader (PHWare)\nJobst Technologies Biosensors: hardware company that sells biosensors that detect glucose.\nhttp://tula-health.com/content/tech.html is raising money for a non-invasive CGM.\nOnDuo: An open resource doc about Google-Verily and Sanofi’s diabetes program that features CGM.\nMedtronic Guardian: open resource doc about another sensor+phone integrated CGM with prediction capabilities"
+    "section": "8.4 Hardware",
+    "text": "8.4 Hardware\n\n8.4.1 Freestyle Libre hardware information\n\nFreestyle Libre sensor teardown: Blogger Ido Roseman takes one apart, with photos.\nReddit forum says: “it would appear that Libre sensors use NfcV, while S8 does not support NfcV (ISO 15693) but happily talks over NfcA and NfcB (ISO/IEC 14443). “\nInsulin calculator: settings/professional and password = CAA1C\n\n\n\n8.4.2 Freestyle-compatible\nHardware devices that work with the Freestyle Libre. Using an NFC reader that talks directly to the Libre sensor, they send information to a bluetooth phone.\n\nMiaoMiao Shanghai company $200\nAmbrosia Systems Nightrider: $110 NFC-to-bluetooth device\nBubblan: Supports All Libre Sensors except US Libre2 version : 139.99€\n\n\n\n8.4.3 Other hardware\n\nBionous: Seattle-Bellevue company that claims to have a low-cost non-invasive glucose reader (PHWare)\nJobst Technologies Biosensors: hardware company that sells biosensors that detect glucose.\nhttp://tula-health.com/content/tech.html is raising money for a non-invasive CGM.\nOnDuo: An open resource doc about Google-Verily and Sanofi’s diabetes program that features CGM.\nMedtronic Guardian: open resource doc about another sensor+phone integrated CGM with prediction capabilities",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Advanced Topics</span>"
+    ]
   },
   {
     "objectID": "Projects/Personal Science/PS-CGM/Advanced Topics.html#scientific-articles",
     "href": "Projects/Personal Science/PS-CGM/Advanced Topics.html#scientific-articles",
     "title": "7  Advanced Topics",
-    "section": "7.3 Scientific articles",
-    "text": "7.3 Scientific articles\n\nJournal of Diabetes Science and Technology (2020) concludes that Freestyle Libre 2 performs within 20% of blood values.\nLancet article (2016) that established the accuracy of the underlying CGM technology\nGlucotypes (2018): Stanford study claims people respond differently to foods\n\nSee news article summary\nUpload your data to their online app here: https://abreschi.shinyapps.io/shinySpecClust/\n\nPersonalized Nutrition by Prediction of Glycemic Responses (Cell: Zeevi et al 2015)\n\nHighly-cited study showing differences are driven by the microbiome\n\n“Continuous Gluose Profiles in Healthy Subjects” (2007) study.\nFDA approval document: more details about Freestyle Libre and its authorized uses\n\n(see similar approval for Dexcom, a de novo iCGM)\n\n“Hunting the Deceitful Turkey” 100+ page book about the tech behind non-invasive glucose monitoring\n\nA handy table of CGM clinical trials (via AMJC)\n\n\n\nalt_text"
+    "section": "8.5 Scientific articles",
+    "text": "8.5 Scientific articles\n\nJournal of Diabetes Science and Technology (2020) concludes that Freestyle Libre 2 performs within 20% of blood values.\nLancet article (2016) that established the accuracy of the underlying CGM technology\nGlucotypes (2018): Stanford study claims people respond differently to foods\n\nSee news article summary\nUpload your data to their online app here: https://abreschi.shinyapps.io/shinySpecClust/\n\nPersonalized Nutrition by Prediction of Glycemic Responses (Cell: Zeevi et al 2015)\n\nHighly-cited study showing differences are driven by the microbiome\n\n“Continuous Gluose Profiles in Healthy Subjects” (2007) study.\nFDA approval document: more details about Freestyle Libre and its authorized uses\n\n(see similar approval for Dexcom, a de novo iCGM)\n\n“Hunting the Deceitful Turkey” 100+ page book about the tech behind non-invasive glucose monitoring\n\nA handy table of CGM clinical trials (via AMJC)\n\n\n\nClinical Trial RCTs",
+    "crumbs": [
+      "Techniques",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Advanced Topics</span>"
+    ]
+  },
+  {
+    "objectID": "References.html",
+    "href": "References.html",
+    "title": "8  References",
+    "section": "",
+    "text": "9 References\n\n\nLutsker, Guy, Gal Sapir, Anastasia Godneva, Smadar Shilo, Jerry R\nGreenfield, Dorit Samocha-Bonet, Shie Mannor, et al. 2024. “From\nGlucose Patterns to Health Outcomes: A Generalizable Foundation Model\nfor Continuous Glucose Monitor Data Analysis.” https://arxiv.org/abs/2408.11876.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>References</span>"
+    ]
   }
 ]

@@ -1,3 +1,12 @@
+---
+title: Using Your CGM Data
+updated: 2023-04-04 17:36:50Z
+created: 2023-04-04 17:36:43Z
+latitude: 47.46683840
+longitude: -122.34053050
+altitude: 0.0000
+---
+
 # Using Your CGM Data
 
 Websites and apps that help you track glucose numbers.

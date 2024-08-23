@@ -1,3 +1,12 @@
+---
+title: Advanced Topics
+updated: 2024-08-23 22:41:02Z
+created: 2023-04-04 17:36:58Z
+latitude: 47.46683840
+longitude: -122.34053050
+altitude: 0.0000
+---
+
 # Advanced Topics
 
 
@@ -18,6 +27,20 @@ Sites that are useful for general background
 
 *   **Reddit: /r/Diabetes**
     *   Especially check the thread on [“Things you wished you knew about the Freestyle sensors”](https://www.reddit.com/r/diabetes/comments/8axzlc/things_you_wished_you_knew_about_freestyle_libre/) 
+
+
+## Using AI
+
+[From Glucose Patterns to Health Outcomes: A Generalizable Foundation Model for Continuous Glucose Monitor Data Analysis](https://arxiv.org/abs/2408.11876) 
+@lutsker2024glucosepatternshealthoutcomes
+
+
+
+
+## Software Packages
+
+[Interpreting blood GLUcose data with R package iglu](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0248560) an R package with zillions of CGM-related functions
+
 
 
 
@@ -77,7 +100,7 @@ A handy table of CGM clinical trials (via [AMJC](https://www.ajmc.com/journals/e
 
 
 
-![alt_text](images/AMJC-clinical-trials.png "image_tooltip")
+![Clinical Trial RCTs](images/AMJC-clinical-trials.png "image_tooltip")
 
 
 

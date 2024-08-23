@@ -1,3 +1,12 @@
+---
+title: Introduction
+updated: 2023-04-04 17:49:46Z
+created: 2023-04-04 17:34:23Z
+latitude: 47.46683840
+longitude: -122.34053050
+altitude: 0.0000
+---
+
 # Introduction {#intro}
 
 This is a list of resources useful for building products that work with continuous glucose monitoring devices. Consider this document to be in the public domain, free to use however you like (but of course with absolutely no guarantees of accuracy).

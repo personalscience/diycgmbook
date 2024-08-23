@@ -1,3 +1,12 @@
+---
+title: How to get your CGM
+updated: 2023-06-13 19:04:32Z
+created: 2023-04-04 17:36:08Z
+latitude: 47.46683840
+longitude: -122.34053050
+altitude: 0.0000
+---
+
 # How to get your CGM
 
 The FreeStyle Libre is available over-the-counter at most pharmacies throughout the world (including Mexico and Canada), but requires a doctor's prescription in the United States.

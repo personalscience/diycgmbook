@@ -2,13 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.5.45">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="How to do your own personal science experiments with continuous glucose monitoring.">
 
-<title>DIY CGM - 6&nbsp; Using Your CGM Data</title>
+<title>6&nbsp; Using Your CGM Data – DIY CGM</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -48,7 +48,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -73,13 +80,13 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../Projects/Personal Science/PS-CGM/Diet and food-tracking.html">Techniques</a></li><li class="breadcrumb-item"><a href="../../../Projects/Personal Science/PS-CGM/Using Your CGM Data.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Using Your CGM Data</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../Projects/Personal Science/PS-CGM/Diet and food-tracking.html">Techniques</a></li><li class="breadcrumb-item"><a href="../../../Projects/Personal Science/PS-CGM/Using Your CGM Data.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Using Your CGM Data</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -88,23 +95,23 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="../../../">DIY CGM</a> 
         <div class="sidebar-tools-main">
     <div class="dropdown">
-      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
           <li>
             <a class="dropdown-item sidebar-tools-main-item" href="../../../diycgm.epub">
-              <i class="bi bi-bi-journal pe-1"></i>
+              <i class="bi bi-journal pe-1"></i>
             Download ePub
             </a>
           </li>
           <li>
             <a class="dropdown-item sidebar-tools-main-item" href="../../../diycgm.docx">
-              <i class="bi bi-bi-file-word pe-1"></i>
+              <i class="bi bi-file-word pe-1"></i>
             Download Docx
             </a>
           </li>
@@ -122,9 +129,9 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">General Overview</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -132,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Prerequisites</span></span></a>
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">index</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -157,9 +164,9 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
  <span class="menu-text">Techniques</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -193,25 +200,28 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#use-the-personal-science-app" id="toc-use-the-personal-science-app" class="nav-link active" data-scroll-target="#use-the-personal-science-app"><span class="header-section-number">6.1</span> Use the Personal Science App</a></li>
-  <li><a href="#abbott-labs-official" id="toc-abbott-labs-official" class="nav-link" data-scroll-target="#abbott-labs-official"><span class="header-section-number">6.2</span> Abbott Labs Official</a></li>
-  <li><a href="#international-versions" id="toc-international-versions" class="nav-link" data-scroll-target="#international-versions"><span class="header-section-number">6.3</span> International versions</a></li>
-  <li><a href="#third-party" id="toc-third-party" class="nav-link" data-scroll-target="#third-party"><span class="header-section-number">6.4</span> Third Party</a></li>
-  <li><a href="#open-source-software" id="toc-open-source-software" class="nav-link" data-scroll-target="#open-source-software"><span class="header-section-number">7</span> Open Source Software</a></li>
+  <li><a href="#using-your-cgm-data" id="toc-using-your-cgm-data" class="nav-link active" data-scroll-target="#using-your-cgm-data"><span class="header-section-number">7</span> Using Your CGM Data</a>
+  <ul class="collapse">
+  <li><a href="#use-the-personal-science-app" id="toc-use-the-personal-science-app" class="nav-link" data-scroll-target="#use-the-personal-science-app"><span class="header-section-number">7.1</span> Use the Personal Science App</a></li>
+  <li><a href="#abbott-labs-official" id="toc-abbott-labs-official" class="nav-link" data-scroll-target="#abbott-labs-official"><span class="header-section-number">7.2</span> Abbott Labs Official</a></li>
+  <li><a href="#international-versions" id="toc-international-versions" class="nav-link" data-scroll-target="#international-versions"><span class="header-section-number">7.3</span> International versions</a></li>
+  <li><a href="#third-party" id="toc-third-party" class="nav-link" data-scroll-target="#third-party"><span class="header-section-number">7.4</span> Third Party</a></li>
+  </ul></li>
+  <li><a href="#open-source-software" id="toc-open-source-software" class="nav-link" data-scroll-target="#open-source-software"><span class="header-section-number">8</span> Open Source Software</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../Projects/Personal Science/PS-CGM/Diet and food-tracking.html">Techniques</a></li><li class="breadcrumb-item"><a href="../../../Projects/Personal Science/PS-CGM/Using Your CGM Data.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Using Your CGM Data</span></a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Using Your CGM Data</span></h1>
 </div>
@@ -226,16 +236,20 @@ ul.task-list li input[type="checkbox"] {
   </div>
   
 
+
 </header>
 
+
+<section id="using-your-cgm-data" class="level1" data-number="7">
+<h1 data-number="7"><span class="header-section-number">7</span> Using Your CGM Data</h1>
 <p>Websites and apps that help you track glucose numbers.</p>
-<section id="use-the-personal-science-app" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="use-the-personal-science-app"><span class="header-section-number">6.1</span> Use the Personal Science App</h2>
+<section id="use-the-personal-science-app" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="use-the-personal-science-app"><span class="header-section-number">7.1</span> Use the Personal Science App</h2>
 <p>The best way to analyze your CGM data is with the CGM app from Personal Science (makers of this web site). You can upload your data and study it for free using the open source software <a href="https://github.com/personalscience/taster">here</a>. Uses Docker. Requires a little setup, but it will let you upload a CSV file and generate plots like this:</p>
 <p><img src="../../../assets/images/images/glucose_Levels_After_Eating_Rice.jpg" class="img-fluid"></p>
 </section>
-<section id="abbott-labs-official" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="abbott-labs-official"><span class="header-section-number">6.2</span> Abbott Labs Official</h2>
+<section id="abbott-labs-official" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="abbott-labs-official"><span class="header-section-number">7.2</span> Abbott Labs Official</h2>
 <p>The most important software for Freestyle Libre downloading is the officially-supported one here:</p>
 <p><a href="https://provider.myfreestyle.com/freestyle-libre-resources.html" class="uri">https://provider.myfreestyle.com/freestyle-libre-resources.html</a></p>
 <p>Create an account on Libreview and then you can download your data as a CSV file here:</p>
@@ -243,34 +257,34 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../../assets/images/images/freestyle-download.jpg" title="image_tooltip" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Libreview main page</figcaption>
+<figcaption>Libreview main page</figcaption>
 </figure>
 </div>
 <p>Then click here: <a href="https://www.libreview.com/glucosereports" class="uri">https://www.libreview.com/glucosereports</a></p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../../assets/images/images/freestyle-download-click.jpg" title="image_tooltip" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Click to download</figcaption>
+<figcaption>Click to download</figcaption>
 </figure>
 </div>
 <p>If you have the Abbott custom reader device, you can also download a Mac or Windows version of Freestyle Libre personal CGM</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="../../../assets/images/images/freestyle-software.png" title="image_tooltip" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Freestyle Libre Software</figcaption>
+<figcaption>Freestyle Libre Software</figcaption>
 </figure>
 </div>
 </section>
-<section id="international-versions" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="international-versions"><span class="header-section-number">6.3</span> International versions</h2>
+<section id="international-versions" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="international-versions"><span class="header-section-number">7.3</span> International versions</h2>
 <p>Freestyle Libre devices sold in other countries will generally work everywhere if you use the app downloaded specifically for that country.</p>
 <p>This [table by <a href="https://www.facebook.com/photo.php?fbid=1835069433269419&amp;set=gm.751003141928341&amp;type=3&amp;theater&amp;ifg=1">Chuck Kub</a>] is a little old, but gives a sense of which models are available in which countries.</p>
 <p><strong>China:</strong> buy a reader plus 3 14-day sensor packs <a href="https://item.jd.com/32498232197.html">through Taobao</a> for about 1800 RMB (USD$270)</p>
 </section>
-<section id="third-party" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="third-party"><span class="header-section-number">6.4</span> Third Party</h2>
+<section id="third-party" class="level2" data-number="7.4">
+<h2 data-number="7.4" class="anchored" data-anchor-id="third-party"><span class="header-section-number">7.4</span> Third Party</h2>
 <p>Many organizations now offer ways to upload and use your Freestyle (or other CGM) data.</p>
-<table class="table">
+<table class="caption-top table">
 <tbody>
 <tr class="odd">
 <td><p><strong>Nightscout</strong></p>
@@ -289,26 +303,42 @@ ul.task-list li input[type="checkbox"] {
 <td><p><strong>Tidepool</strong> <a href="https://app.tidepool.org/patients" class="uri">https://app.tidepool.org/patients</a></p>
 <p>Open-source non-profit place to upload glucose data</p></td>
 <td></td>
-<td><img src="../../../assets/images/images/tidepool-logo.png" title="image_tooltip" class="img-fluid" alt="alt_text">
+<td><div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../assets/images/images/tidepool-logo.png" title="image_tooltip" class="img-fluid figure-img"></p>
+<figcaption>alt_text</figcaption>
+</figure>
+</div>
 <p><a href="https://tidepool.org" class="uri">https://tidepool.org</a></p></td>
 </tr>
 <tr class="even">
 <td><strong>Diabetes:M</strong></td>
 <td></td>
-<td><img src="../../../assets/images/images/miaomiao-logo.png" title="image_tooltip" class="img-fluid" alt="alt_text">
+<td><div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../assets/images/images/miaomiao-logo.png" title="image_tooltip" class="img-fluid figure-img"></p>
+<figcaption>alt_text</figcaption>
+</figure>
+</div>
 <p>https://diabetes-m.com/</p></td>
 </tr>
 <tr class="odd">
 <td><strong>Glimp</strong> : popular Android app</td>
 <td></td>
-<td><img src="../../../assets/images/images/glimp-logo.png" title="image_tooltip" class="img-fluid" alt="alt_text">
+<td><div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../assets/images/images/glimp-logo.png" title="image_tooltip" class="img-fluid figure-img"></p>
+<figcaption>alt_text</figcaption>
+</figure>
+</div>
 <p><a href="https://play.google.com/store/apps/details?id=it.ct.glicemia" class="uri">https://play.google.com/store/apps/details?id=it.ct.glicemia</a></p></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="open-source-software" class="level1" data-number="7">
-<h1 data-number="7"><span class="header-section-number">7</span> Open Source Software</h1>
+</section>
+<section id="open-source-software" class="level1" data-number="8">
+<h1 data-number="8"><span class="header-section-number">8</span> Open Source Software</h1>
 <ul>
 <li><p><a href="https://github.com/personalscience/cgmr">cgmr</a> is an open-source R package that lets you read and process CGM data from Abbott Freestyle Libre. Includes functions to calculate iAUC and do side-by-side analyses comparing different food types over time.</p></li>
 <li><p><strong>Nightscout xDrip+</strong>: <a href="https://github.com/JoernL/xDrip-plus" class="uri">https://github.com/JoernL/xDrip-plus</a></p>
@@ -377,18 +407,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -420,11 +439,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -434,8 +492,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -447,7 +514,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -491,6 +681,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -516,6 +707,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -577,12 +794,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../../Projects/Personal Science/PS-CGM/Diet and food-tracking.html" class="pagination-link">
+      <a href="../../../Projects/Personal Science/PS-CGM/Diet and food-tracking.html" class="pagination-link" aria-label="Diet and food-tracking">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Diet and food-tracking</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../../Projects/Personal Science/PS-CGM/Advanced Topics.html" class="pagination-link">
+      <a href="../../../Projects/Personal Science/PS-CGM/Advanced Topics.html" class="pagination-link" aria-label="Advanced Topics">
         <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Advanced Topics</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
@@ -590,7 +807,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Personal Science <a href="https://personalscience.com" class="uri">https://personalscience.com</a></div>   
+    <div class="nav-footer-left">
+<p>Personal Science <a href="https://personalscience.com" class="uri">https://personalscience.com</a></p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
@@ -612,6 +831,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 
