@@ -1,7 +1,7 @@
 project:
   title: "DIY CGM"
   type: book
-  output-dir: _book
+  output-dir: docs
 
 website:
   page-footer:
